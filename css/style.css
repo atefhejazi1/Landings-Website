@@ -1,0 +1,324 @@
+header {
+    background-image: url(../images/header.svg);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #0000fd;
+    opacity: 0.35;
+}
+
+.navbar {
+    padding: 40px 0;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+header .header-data {
+    text-align: center;
+    color: #fff;
+    margin-top: 90px;
+    position: relative;
+}
+
+header .header-data h1 {
+    font-size: 80px;
+}
+
+header .header-data p {
+    width: 70%;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+header .header-data button {
+    background-color: #325dff;
+    color: #fff;
+    padding: 13px 50px;
+    border: 0;
+    border-radius: 30px;
+}
+
+@media (max-width: 767.98px) {
+    header .header-data h1 {
+        font-size: 60px;
+    }
+
+    header .header-data p {
+        font-size: 18px;
+    }
+}
+@media (max-width: 575.98px) {
+    header .header-data h1 {
+        font-size: 55px;
+    }
+
+    header .header-data p {
+        font-size: 18px;
+        width: 70%;
+    }
+}
+.about-us {
+    overflow-x: hidden;
+}
+.about-us .about-us-data {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.about-us .about-us-data h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+
+.about-us .about-us-data p {
+    font-size: 23px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+
+.about-us .about-us-data button {
+    background-color: #325dff;
+    color: #fff;
+    padding: 13px 50px;
+    border: 0;
+    border-radius: 30px;
+}
+.about-us .about-us-image {
+    margin-left: 4px;
+}
+
+.about-us .about-us-image img {
+    /* width: 118%; */
+    width: 122%;
+}
+
+@media (max-width: 991.98px) {
+    .about-us .about-us-data h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .about-us .about-us-data p {
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+
+    .about-us .about-us-image {
+        margin-left: -24px;
+    }
+
+    .about-us .about-us-image img {
+        width: 140%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .about-us .about-us-image {
+        margin-left: 0;
+    }
+
+    .about-us .about-us-image img {
+        width: 100%;
+    }
+}
+
+.services {
+    background-color: #fafafa;
+    padding: 60px 0;
+}
+
+.services h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.services .services-intro {
+    padding: 30px 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.services .services-item {
+    background-color: #fff;
+    border: 2px solid #cecece;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+}
+
+.services .services-item h3 {
+    margin: 15px 0;
+    font-size: 18px;
+}
+.services .services-item p {
+    padding: 0px 50px;
+}
+
+.video-intro {
+    background-image: url(../images/video-bg.svg);
+    height: 80vh;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+
+.video-intro .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #1574b9;
+    opacity: 0.35;
+}
+.video-intro .video-intro-data {
+    position: relative;
+    color: #fff;
+    padding-top: 14%;
+}
+
+.video-intro .video-intro-data h3 {
+    margin: 20px 0;
+}
+.video-intro .video-intro-data p {
+    width: 80%;
+    margin: 0 auto;
+}
+.video-intro img {
+    cursor: pointer;
+}
+.video-intro .modal {
+    position: fixed;
+}
+.features {
+    padding: 40px 0;
+}
+
+.features .features-intro h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.features .features-intro p {
+    width: 77%;
+    margin: 0 auto;
+}
+
+.features {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.features .features-item {
+    margin-top: 40px;
+}
+.features .features-item-data {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.features .features-item-data h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+
+.features .features-item-data p {
+    font-size: 23px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+
+.features .features-item-data button {
+    background-color: #325dff;
+    color: #fff;
+    padding: 13px 50px;
+    border: 0;
+    border-radius: 30px;
+}
+.features .features-item-image {
+    margin-left: 4px;
+}
+
+.features .features-item-image img {
+    width: 122%;
+}
+
+.features .features-item-image-after-edit {
+    margin-left: -114px;
+}
+
+.features .features-item-image-after-edit img {
+    width: 100%;
+}
+
+@media (max-width: 991.98px) {
+    .features .features-item-data h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .features .features-item-data p {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .features .features-item-image {
+        margin-left: -44px;
+    }
+
+    .features .features-item-image img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .features .features-item-image {
+        margin-left: 0;
+    }
+
+    .features .features-item-image img {
+        width: 100%;
+    }
+}
+
+footer {
+    background-color: #325dff;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.toTop {
+    background-color: #325dff;
+    color: #fff;
+    position: fixed;
+    right: 30px;
+    bottom: 80px;
+    border-radius: 100%;
+    padding: 6px 8px;
+    cursor: pointer;
+    display: none;
+}
